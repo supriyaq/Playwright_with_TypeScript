@@ -1,0 +1,233 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Supriya\\OneDrive\\Desktop\\SUPRIYA_PERSONAL\\Supriya\\Learning\\PLAYWRIGHT WITH TYPESCRIPT\\Playwright with TypeScript-2\\playwright.config.ts",
+    "rootDir": "C:/Users/Supriya/OneDrive/Desktop/SUPRIYA_PERSONAL/Supriya/Learning/PLAYWRIGHT WITH TYPESCRIPT/Playwright with TypeScript-2/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "open": "always",
+          "outputFolder": "HtmL-RePoRt"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "line",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "xml_File.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json_File.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Supriya/OneDrive/Desktop/SUPRIYA_PERSONAL/Supriya/Learning/PLAYWRIGHT WITH TYPESCRIPT/Playwright with TypeScript-2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Supriya/OneDrive/Desktop/SUPRIYA_PERSONAL/Supriya/Learning/PLAYWRIGHT WITH TYPESCRIPT/Playwright with TypeScript-2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Supriya/OneDrive/Desktop/SUPRIYA_PERSONAL/Supriya/Learning/PLAYWRIGHT WITH TYPESCRIPT/Playwright with TypeScript-2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Supriya/OneDrive/Desktop/SUPRIYA_PERSONAL/Supriya/Learning/PLAYWRIGHT WITH TYPESCRIPT/Playwright with TypeScript-2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Supriya/OneDrive/Desktop/SUPRIYA_PERSONAL/Supriya/Learning/PLAYWRIGHT WITH TYPESCRIPT/Playwright with TypeScript-2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Supriya/OneDrive/Desktop/SUPRIYA_PERSONAL/Supriya/Learning/PLAYWRIGHT WITH TYPESCRIPT/Playwright with TypeScript-2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 10,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Reporter.spec.ts",
+      "file": "Reporter.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify the logo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4046,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-14T03:31:35.897Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5ad62852561f3825e72-6ee0e4a8d8994ed55d01",
+          "file": "Reporter.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "Verify the title of the page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4381,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-14T03:31:35.904Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5ad62852561f3825e72-081dad5b86b57287c72b",
+          "file": "Reporter.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Search Functionality Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4907,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-14T03:31:35.899Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c5ad62852561f3825e72-f0e9ea4d184743865956",
+          "file": "Reporter.spec.ts",
+          "line": 22,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-14T03:31:33.373Z",
+    "duration": 7667.866,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
