@@ -89,7 +89,7 @@ screenshot:'only-on-failure',
 video:'on',
 
     /* Base URL to use in actions like `await page.goto('')`. */
-    // baseURL: 'http://localhost:3000',
+    baseURL: 'https://restful-booker.herokuapp.com',
     //  viewport:{width:1200, height:800},
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
